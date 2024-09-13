@@ -1,0 +1,35 @@
+.hero img 
+{
+    height: calc(70vh );
+    object-fit: cover;
+}
+.hero .heroCap
+{
+    font-family: var(--title-font) !important;
+    background-color: var(--nav-color);
+    border-top: 5px solid var(--primary-color);
+}
+
+.hero .carousel-indicators [data-bs-target]
+{
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    background-color: var(--nav-color) !important;
+    opacity: 1 !important;
+}
+.hero .carousel-indicators .active
+{
+    background-color: var(--primary-color) !important;
+}
+@media (max-width:576px) and (min-width:300px)
+{
+    .hero .heroCap h3 
+    {
+        font-size: 20px !important;
+    }
+    .hero .heroCap p 
+    {
+        font-size: 15px !important;
+    }
+}

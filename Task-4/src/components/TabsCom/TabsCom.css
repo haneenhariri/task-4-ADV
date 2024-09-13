@@ -1,0 +1,9 @@
+.nav .nav-link {
+    border-right: 2px solid #f1f1f1 ;
+    padding-right: 0 !important;
+    color: #000;         
+  }
+.nav .nav-link.active {
+    border-right: 2px solid var(--primary-color); 
+    color: var(--primary-color);                     
+}

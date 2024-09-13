@@ -1,0 +1,9 @@
+.cardImg
+{
+    width: 35px;
+    height: 35px;
+}
+.cTitle
+{
+    font-family: var(--title-font) !important;
+}

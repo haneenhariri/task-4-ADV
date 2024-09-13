@@ -1,0 +1,15 @@
+.user
+{
+    width: 90px;
+    border: 8px solid #fff;
+    top: -35%;
+}
+.icon-quot
+{
+    color: var(--primary-color);
+}
+.text
+{
+    font-family: var(--def-font);
+    font-size: 13px;
+}

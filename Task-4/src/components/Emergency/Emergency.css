@@ -1,0 +1,12 @@
+.Emergency
+{
+    background-color: var(--primary-color);
+
+}
+@media (max-width:576px) and (min-width:300px)
+{
+    .btnH
+    {
+        font-size: 11px !important;
+    }   
+}

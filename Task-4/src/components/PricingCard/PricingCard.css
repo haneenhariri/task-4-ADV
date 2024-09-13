@@ -1,0 +1,3 @@
+.card:nth-child(2) .head {
+    background-color: var(--primary-color);
+}

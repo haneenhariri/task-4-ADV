@@ -1,0 +1,25 @@
+.navbar
+{
+    background-color: var(--nav-color);
+    font-size: 13px !important;
+    font-family: var(--def-font);
+}
+.navbar .navLink:hover
+{
+    color: var( --primary-color);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show
+{
+    color: var(--primary-color) !important;
+}
+.logo img
+{
+    width: 150px;
+}
+@media (max-width:576px) and (min-width:300px)
+{
+    .logo img
+    {
+        width: 100px;
+    }
+}

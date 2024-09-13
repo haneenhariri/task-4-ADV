@@ -1,0 +1,17 @@
+.Ttitle
+{
+    font-family: var(--title-font);
+}
+.Tp
+{
+    font-family: var(--def-font);
+}
+.span 
+{
+    content: '';
+    width: 50px;
+    height: 3px;
+    display: block;
+    background-color: var(--primary-color);
+    margin: 20px 0;
+}
